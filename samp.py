@@ -77,4 +77,4 @@ if(not PostProcess):
 Outputs = mps.ReadStaticObservables(Parameters)
 DynOutputs = mps.ReadDynamicObservables(Parameters)
 
-print(DynOutputs[0][0][bond_dimension])
+print(DynOutputs[0][0]['bond_dimension'])
