@@ -73,7 +73,7 @@ if(not PostProcess):
         else:
             RunDir = None
         mps.runMPS(MainFiles, RunDir=RunDir)
-        return
+		#return
 Outputs = mps.ReadStaticObservables(Parameters)
 DynOutputs = mps.ReadDynamicObservables(Parameters)
 
